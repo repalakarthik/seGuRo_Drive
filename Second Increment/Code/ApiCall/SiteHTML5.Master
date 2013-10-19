@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteHTML5.master.cs" Inherits="ApiCall.SiteHTML5" %>
+<!DOCTYPE html>
+<html >
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+          <script src="~/Scripts/jquery-1.7.1.js" type="text/javascript"></script>
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="Form1" runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                   <b>seGuRo Drive</b> 
+                </h1>
+            </div>
+            <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="true" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Home.aspx" Text="Home"/>
+                        <asp:MenuItem NavigateUrl="~/Weather1.aspx" Text="Weather"/>
+                        <asp:MenuItem NavigateUrl="~/Maps2.aspx" Text="Point Map"/>
+                        <asp:MenuItem NavigateUrl="~/Maps1.aspx" Text="Geo Location Map"/>
+                        <asp:MenuItem NavigateUrl="~/Fuel.aspx" Text="Fuel"/>
+                        <asp:MenuItem NavigateUrl="~/Emergency.aspx" Text="Emergency"/>
+                        <asp:MenuItem NavigateUrl="~/Findcar.aspx" Text="Find My Car"/>
+                        <asp:MenuItem NavigateUrl="~/Contact.aspx" Text="Contact Us"/>
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        <input type="submit" value="Home" />
+        <a href="Home.aspx" data-role="button" data-icon="Home" data-iconpos="right">Home Page</a>
+    </div>
+    </form>
+   
+    <asp:ContentPlaceHolder ID="cphScripts" runat="server">
+        <script src="http://localhost:53742/Scripts/jquery-1.7.1.js" type="text/javascript"></script>
+        <script src="http://localhost:53742/Scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+    </asp:ContentPlaceHolder>
+</body>
+</html>

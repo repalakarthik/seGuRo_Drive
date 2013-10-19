@@ -1,0 +1,19 @@
+body{
+    font-size:12px;
+    font-family:tahoma,verdana;
+    text-align:center;
+    }
+    
+.temp{
+    font-size:22px;
+    font-family:Tahoma;
+    }
+
+.weatherError{
+   color: #ff0000;
+   font-family:Tahoma;
+   font-size: 14px;
+   margin: 5px;
+   font-weight:Bold;
+}
+ 
