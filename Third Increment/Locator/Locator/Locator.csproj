@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{062B32D7-93A7-4418-88BB-30436AF6FD66}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Locator</RootNamespace>
+    <AssemblyName>Locator</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="Controls\Footer.ascx" />
+    <Content Include="Controls\Header.ascx" />
+    <Content Include="Controls\Menu.ascx" />
+    <Content Include="Images\0.png" />
+    <Content Include="Images\1.png" />
+    <Content Include="Images\10.png" />
+    <Content Include="Images\11.png" />
+    <Content Include="Images\12.png" />
+    <Content Include="Images\13.png" />
+    <Content Include="Images\14.png" />
+    <Content Include="Images\15.png" />
+    <Content Include="Images\16.png" />
+    <Content Include="Images\17.png" />
+    <Content Include="Images\18.png" />
+    <Content Include="Images\19.png" />
+    <Content Include="Images\2.png" />
+    <Content Include="Images\20.png" />
+    <Content Include="Images\21.png" />
+    <Content Include="Images\22.png" />
+    <Content Include="Images\23.png" />
+    <Content Include="Images\24.png" />
+    <Content Include="Images\25.png" />
+    <Content Include="Images\26.png" />
+    <Content Include="Images\27.png" />
+    <Content Include="Images\28.png" />
+    <Content Include="Images\29.png" />
+    <Content Include="Images\3.png" />
+    <Content Include="Images\30.png" />
+    <Content Include="Images\31.png" />
+    <Content Include="Images\32.png" />
+    <Content Include="Images\33.png" />
+    <Content Include="Images\34.png" />
+    <Content Include="Images\35.png" />
+    <Content Include="Images\36.png" />
+    <Content Include="Images\37.png" />
+    <Content Include="Images\38.png" />
+    <Content Include="Images\39.png" />
+    <Content Include="Images\4.png" />
+    <Content Include="Images\40.png" />
+    <Content Include="Images\41.png" />
+    <Content Include="Images\42.png" />
+    <Content Include="Images\43.png" />
+    <Content Include="Images\44.png" />
+    <Content Include="Images\45.png" />
+    <Content Include="Images\46.png" />
+    <Content Include="Images\47.png" />
+    <Content Include="Images\5.png" />
+    <Content Include="Images\6.png" />
+    <Content Include="Images\7.png" />
+    <Content Include="Images\8.png" />
+    <Content Include="Images\9.png" />
+    <Content Include="Images\bg_body.gif" />
+    <Content Include="Images\down.gif" />
+    <Content Include="Images\Menu\countries.png" />
+    <Content Include="Images\Menu\countries_small.gif" />
+    <Content Include="Images\Menu\customers.png" />
+    <Content Include="Images\Menu\dealer.png" />
+    <Content Include="Images\Menu\Dealer1.png" />
+    <Content Include="Images\Menu\Dealers.gif" />
+    <Content Include="Images\Menu\dealers2.gif" />
+    <Content Include="Images\Menu\Driver.gif" />
+    <Content Include="Images\Menu\driver.png" />
+    <Content Include="Images\Menu\homeIcon.gif" />
+    <Content Include="Images\Menu\home_icon.gif" />
+    <Content Include="Images\Menu\home_icon1.gif" />
+    <Content Include="Images\Menu\item_background.png" />
+    <Content Include="Images\Menu\item_hover.png" />
+    <Content Include="Images\Menu\location.png" />
+    <Content Include="Images\Menu\lorry_flatbed.png" />
+    <Content Include="Images\Menu\product.png" />
+    <Content Include="Images\Menu\settings.gif" />
+    <Content Include="Images\Menu\settings.png" />
+    <Content Include="Images\Menu\zones.png" />
+    <Content Include="Images\right.gif" />
+    <Content Include="Pages\CheckFuel.aspx" />
+    <Content Include="Pages\FindMyCarTest.aspx" />
+    <Content Include="Pages\CurrentWeather.aspx" />
+    <Content Include="Pages\FindMyCar.aspx" />
+    <Content Include="Pages\GeoLocation.aspx" />
+    <Content Include="Pages\Home.aspx" />
+    <Content Include="Pages\PointMap.aspx" />
+    <Content Include="Scripts\ddsmoothmenu.js" />
+    <Content Include="Scripts\jquery-1.7.1.js" />
+    <Content Include="Scripts\jquery.min.js" />
+    <Content Include="StyleSheets\BasicMenu.css" />
+    <Content Include="StyleSheets\Common.css" />
+    <Content Include="StyleSheets\ddsmoothmenu-v.css" />
+    <Content Include="StyleSheets\ddsmoothmenu.css" />
+    <Content Include="StyleSheets\Footer.css" />
+    <Content Include="StyleSheets\Header.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Content Include="BasePage.cs" />
+    <Content Include="App_Code\BaseUserControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Compile Include="Common.cs" />
+    <Compile Include="Controls\Footer.ascx.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Header.ascx.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Menu.ascx.cs">
+      <DependentUpon>Menu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DirectionStep.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\Root.master.cs">
+      <DependentUpon>Root.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\CheckFuel.aspx.cs">
+      <DependentUpon>CheckFuel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\CheckFuel.aspx.designer.cs">
+      <DependentUpon>CheckFuel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\FindMyCarTest.aspx.cs">
+      <DependentUpon>FindMyCarTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\FindMyCarTest.aspx.designer.cs">
+      <DependentUpon>FindMyCarTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\CurrentWeather.aspx.cs">
+      <DependentUpon>CurrentWeather.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\CurrentWeather.aspx.designer.cs">
+      <DependentUpon>CurrentWeather.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\FindMyCar.aspx.cs">
+      <DependentUpon>FindMyCar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\FindMyCar.aspx.designer.cs">
+      <DependentUpon>FindMyCar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\GeoLocation.aspx.cs">
+      <DependentUpon>GeoLocation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\GeoLocation.aspx.designer.cs">
+      <DependentUpon>GeoLocation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\PointMap.aspx.cs">
+      <DependentUpon>PointMap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\PointMap.aspx.designer.cs">
+      <DependentUpon>PointMap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPages\Root.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Locator.BLL\Locator.BLL.csproj">
+      <Project>{2993DE27-4B24-4E80-8B2A-64CB77FEDB1B}</Project>
+      <Name>Locator.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Locator.Models\Locator.Models.csproj">
+      <Project>{DFB5B4CD-16D9-4D40-A989-30AC0EA0E2C7}</Project>
+      <Name>Locator.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>30268</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,96 @@
+﻿
+body
+{
+	font-family: Verdana;
+	font-size: 11px;
+	background-color: #b6b7bc;
+	background-image1:url(../Images/bg_body.gif);
+	background-repeat:repeat-x;
+}
+
+.main-container
+{
+	padding: 2px;
+	margin: 4px;
+	border: solid 1px gray;
+	background-color: White;
+	height: 550px;
+}
+
+.body-container
+{
+	padding: 2px;
+	margin: 4px;
+	height: 440px;
+	overflow: auto;
+}
+
+.InputLabel
+{
+	background-color: #eceded;
+	padding: 2px;
+	border-bottom: solid 1px silver;
+	border-right: solid 1px silver;
+}
+
+.InputArea
+{
+	padding: 2px;
+	border-bottom: solid 1px silver;
+	border-right: solid 1px silver;
+}
+
+.DefaultTableStyle
+{
+	border:solid 1px #002f57;
+	border-collapse:collapse;
+}
+
+.TableHeader
+{
+	background-color:#24658c;
+	border-right:solid 1px #002f57;
+	padding:4px;
+	color:White;
+}
+
+.TableData
+{
+	border-right:solid 1px #002f57;
+	border-bottom:solid 1px #002f57;
+	border-collapse:collapse; 
+}
+
+.FormHeader
+{
+    background-color:#f7f7f7;
+    color:#585a63;
+    font-weight:bold;
+    padding:8px;
+    margin-top:2px;
+    border-bottom: solid 1px #bebebe;
+}
+
+.Form-Contents
+{
+    padding:5px;
+    
+}
+
+.Default-Button-Style
+{
+    padding:3px;
+    background-color:#09d02a;
+    background-image1:url(../Images/Menu/item_background.png);
+	background-repeat:repeat-x;
+	margin-top:3px;
+	border:solid 1px gray;
+	color:White;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+.Default-Link
+{
+    color:White;    
+}

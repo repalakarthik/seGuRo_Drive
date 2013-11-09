@@ -1,0 +1,17 @@
+﻿
+.DefaultHeader
+{
+	font-size:18px;
+	font-family:Verdana;
+	font-weight:bold;
+	padding:10px;
+}
+
+.header-container
+{
+	border-bottom:solid 2px #002f57;
+	background-color:#094e9c;
+	background-image1:url(../Images/Menu/item_background.png);
+	background-repeat:repeat-x;
+	color:White;
+}

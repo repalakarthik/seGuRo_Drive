@@ -1,0 +1,18 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="Header.ascx.cs" Inherits="Controls_Header" %>
+<%@ Register src="Menu.ascx" tagname="Menu" tagprefix="uc3" %>
+
+<asp:Panel ID="Panel1" runat="server">
+<table border="0" cellpadding="2" cellspacing="0" width="100%" class="header-container">
+    <tr>
+        <td>
+            <div class="DefaultHeader">
+                <asp:Label ID="Label1" runat="server" Text="Seguro Drive"></asp:Label>
+            </div>
+        </td>
+        <td align="right">
+            <asp:LinkButton ID="lnkLogout" runat="server" onclick="lnkLogout_Click" Text="Logout" ToolTip="Logout" CssClass="Default-Link"></asp:LinkButton>
+        </td>
+    </tr>
+</table>
+<uc3:Menu ID="Menu1" runat="server" />
+</asp:Panel> 

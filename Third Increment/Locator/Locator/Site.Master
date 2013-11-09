@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<%@ Register Src="Controls/Header.ascx" TagName="Header" TagPrefix="uc1" %>
+<%@ Register Src="Controls/Footer.ascx" TagName="Footer" TagPrefix="uc2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    
+    <link rel="Stylesheet" type="text/css" href="StyleSheets/Header.css" />
+    <link rel="Stylesheet" type="text/css" href="StyleSheets/Footer.css" />
+    <link rel="Stylesheet" type="text/css" href="StyleSheets/Common.css" />
+    <link rel="Stylesheet" type="text/css" href="StyleSheets/ddsmoothmenu.css" />
+    <link rel="Stylesheet" type="text/css" href="StyleSheets/ddsmoothmenu-v.css" />
+    <script type="text/javascript" src="Scripts/ddsmoothmenu.js"></script>
+    <script type="text/javascript" src="Scripts/jquery.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body scroll="no" style="background-image: url(../Images/bg_body.gif); background-repeat: repeat-x;">
+    <form runat="server">
+    <div class="main-container">
+         <asp:ContentPlaceHolder ID="HeaderContentPlaceHolder" runat="server">
+            <uc1:Header ID="Header1" runat="server" />
+        </asp:ContentPlaceHolder>
+        <div class="body-container">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <asp:ContentPlaceHolder ID="FooterContentPlaceHolder" runat="server">
+            <uc2:Footer ID="Footer1" runat="server" />
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
