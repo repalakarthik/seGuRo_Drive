@@ -1,0 +1,74 @@
+﻿
+body
+{
+	font-family:Verdana;
+	font-size:12px;
+}
+
+.Selected
+{
+	background-color:#d2de96;	
+	cursor:pointer;
+	border:solid 1px #d2de96;
+	border-bottom:0px;
+	color:#464646;
+}
+
+.UnSelected
+{
+	background-color:#d9e4f3;
+	cursor:pointer;
+	border-bottom:solid 1px #d2de96;
+	color:#143980;
+}
+
+.BlankTab
+{
+	border-bottom:solid 1px #d2de96;
+}
+
+.MenuContainer
+{
+	border:solid 2px #d2de96;
+}
+
+.DefaultLinks
+{
+	padding:5px;
+	text-align:center;
+	color:#143980;
+}
+
+.SelectedLink
+{
+	background-color:#ffea99;
+	background-image:url(../Images/Menu/item_hover.png);
+	background-repeat:repeat-x;
+	border:solid 1px #ffb700;
+	padding:4px;
+	cursor:pointer;
+	text-align:center;
+	color:#143980;
+}
+
+.UnSelectedLink
+{
+	background:transparent;
+	padding:5px;
+	cursor:pointer;
+	text-align:center;
+	color:#143980;
+}
+
+.Separator
+{
+	margin:1px;
+}
+
+a
+{
+	color:#143980;
+	text-decoration:none;
+	padding:2px;
+	font-size:11px;
+}

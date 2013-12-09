@@ -1,0 +1,15 @@
+﻿
+.DefaultFooter
+{
+	font-size:11px;
+	font-family:verdana;
+	color:white;
+	padding:2px;
+	text-align:center;
+}
+
+.footer-container
+{
+	background-color:#094e9c;	
+	border-top:dotted 2px gray;
+}
